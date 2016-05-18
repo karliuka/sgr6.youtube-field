@@ -49,9 +49,21 @@ $installdefs =
             		'to' => 'custom/modules/DynamicFields/templates/Fields/TemplateYoutube.php',
             	),
             	array (
+            		'from' => '<basepath>/modules/DynamicFields/templates/Fields/Forms/youtube.php',
+            		'to' => 'custom/modules/DynamicFields/templates/Fields/Forms/youtube.php',
+            	),
+            	array (
+            		'from' => '<basepath>/modules/DynamicFields/templates/Fields/Forms/youtube.tpl',
+            		'to' => 'custom/modules/DynamicFields/templates/Fields/Forms/youtube.tpl',
+            	),	
+             	array (
+            		'from' => '<basepath>/modules/DynamicFields/Ext/Language/en_us.youtube.php',
+            		'to' => 'custom/Extension/modules/DynamicFields/Ext/Language/en_us.youtube.php',
+            	),        				
+            	array (
             		'from' => '<basepath>/modules/ModuleBuilder/Ext/Language/en_us.youtube.php',
             		'to' => 'custom/Extension/modules/ModuleBuilder/Ext/Language/en_us.youtube.php',
-            	),            		
+            	),   		
             ),
 
 );
