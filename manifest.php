@@ -57,13 +57,29 @@ $installdefs =
             		'to' => 'custom/modules/DynamicFields/templates/Fields/Forms/youtube.tpl',
             	),	
              	array (
-            		'from' => '<basepath>/modules/DynamicFields/Ext/Language/en_us.youtube.php',
-            		'to' => 'custom/Extension/modules/DynamicFields/Ext/Language/en_us.youtube.php',
-            	),        				
+            		'from' => '<basepath>/modules/DynamicFields/Ext/Language/en_US.youtube.php',
+            		'to' => 'custom/Extension/modules/DynamicFields/Ext/Language/en_US.youtube.php',
+            	),
+             	array (
+            		'from' => '<basepath>/modules/DynamicFields/Ext/Language/ru_RU.youtube.php',
+            		'to' => 'custom/Extension/modules/DynamicFields/Ext/Language/ru_RU.youtube.php',
+            	),  
+             	array (
+            		'from' => '<basepath>/modules/DynamicFields/Ext/Language/uk_UA.youtube.php',
+            		'to' => 'custom/Extension/modules/DynamicFields/Ext/Language/uk_UA.youtube.php',
+            	),  				
             	array (
-            		'from' => '<basepath>/modules/ModuleBuilder/Ext/Language/en_us.youtube.php',
-            		'to' => 'custom/Extension/modules/ModuleBuilder/Ext/Language/en_us.youtube.php',
-            	),   		
+            		'from' => '<basepath>/modules/ModuleBuilder/Ext/Language/en_US.youtube.php',
+            		'to' => 'custom/Extension/modules/ModuleBuilder/Ext/Language/en_US.youtube.php',
+            	),
+            	array (
+            		'from' => '<basepath>/modules/ModuleBuilder/Ext/Language/ru_RU.youtube.php',
+            		'to' => 'custom/Extension/modules/ModuleBuilder/Ext/Language/ru_RU.youtube.php',
+            	),   
+            	array (
+            		'from' => '<basepath>/modules/ModuleBuilder/Ext/Language/uk_UA.youtube.php',
+            		'to' => 'custom/Extension/modules/ModuleBuilder/Ext/Language/uk_UA.youtube.php',
+            	),   				
             ),
 
 );
